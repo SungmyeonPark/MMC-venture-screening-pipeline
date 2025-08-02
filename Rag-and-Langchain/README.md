@@ -7,10 +7,15 @@ This module implements a **Retrieval-Augmented Generation (RAG)** pipeline to sc
 ## Project Structure
 
 Rag-and-Langchain/
+
 ├── app.py # FastAPI endpoint to serve pitch evaluation
+
 ├── embed_and_save.py # Extracts text from PDFs, embeds it, and builds FAISS index
+
 ├── evaluate_scorecard.py # Loads vector DB, retrieves relevant chunks, scores via LLM
+
 ├── scorecard_config.py # Configurable investment scorecard and prompt builder
+
 ├── GPT_LangChain_interactive.ipynb # (Notebook interface for development / testing)
 
 
